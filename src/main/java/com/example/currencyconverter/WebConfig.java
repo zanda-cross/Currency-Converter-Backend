@@ -13,7 +13,7 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("https://currency-converter-zandacross.netlify.app/")   // front end origin
+                        .allowedOrigins("https://currency-converter-zandacross.netlify.app")   // front end origin
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS");
             }
         };
