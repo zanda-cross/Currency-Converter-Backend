@@ -20,5 +20,3 @@ It exposes REST APIs for fetching currency lists and converting amounts.
 - Spring Boot
 - Maven
 - REST APIs
-
-## 📂 Project Structure
